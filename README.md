@@ -175,8 +175,8 @@ Response:
 
 ## Notes
 
-Nested serializers are used for read operations
-Separate write serializer is used for Book creation (ID-based relationships)
-ManyToMany relationships are handled using primary key references
-SQLite is used for development only
-.env file is required for configuration
+- Nested serializers are used for read operations
+- Separate write serializer is used for Book creation (ID-based relationships)
+- ManyToMany relationships are handled using primary key references
+- SQLite is used for development only
+- .env file is required for configuration
